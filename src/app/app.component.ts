@@ -9,6 +9,6 @@ export class AppComponent {}
 
 
 /*
-Use of this source code is governed by an MIT-style license th
+Use of this source code is governed by an MIT-style license tha
 can be found in the LICENSE file at https://github.com/ngrx/platform
 */
