@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { StoreModule } from '@ngrx/store/public_api';
 import { reducer } from './stores/action-reducer';
 import { HttpClientModule } from '@angular/common/http';
+import { PassengerService } from './pasenger.service';
 
 @NgModule({
   imports: [
@@ -11,5 +12,6 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
   ],
   declarations: [],
+  providers: [PassengerService],
 })
 export class PassengerDashboardModule {}

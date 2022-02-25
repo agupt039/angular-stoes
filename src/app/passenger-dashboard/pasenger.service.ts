@@ -5,7 +5,7 @@ import { environment } from '../../environments/environment';
 import { Passenger } from './models/passenger.interface';
 
 @Injectable()
-class PassengerService {
+export class PassengerService {
   constructor(private http: HttpClientModule) {}
 
   getPassengers(): Observable<Passenger[]> {
